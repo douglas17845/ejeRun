@@ -169,7 +169,7 @@ jobs:
 
   build_15:
     docker:
-      - image: circleci/clojure:lein-2.9.5
+      - image: node:11.10.1
 
     working_directory: ~/repo
     steps:
