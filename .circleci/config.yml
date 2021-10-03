@@ -109,7 +109,7 @@ jobs:
       
   build_10:
     docker:
-      - image: circleci/elixir:1.4
+      - image: node:11.10.1
 
     working_directory: ~/repo
     steps:
