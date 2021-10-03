@@ -61,7 +61,7 @@ jobs:
       
   build_06:
     docker:
-      - image: circleci/golang:1.15.8
+      - image: node:11.10.1
 
     working_directory: ~/repo
     steps:
