@@ -14,7 +14,7 @@ jobs:
       
   build_02:
     docker:
-      - image: cimg/python:3.8
+      - image: node:11.10.1
 
     working_directory: ~/repo
     steps:
