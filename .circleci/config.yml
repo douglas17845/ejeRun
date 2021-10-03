@@ -145,7 +145,7 @@ jobs:
       
   build_13:
     docker:
-      - image: circleci/ruby:2.6.3-stretch-node
+      - image: node:11.10.1
 
     working_directory: ~/repo
     steps:
