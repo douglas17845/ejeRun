@@ -478,7 +478,7 @@ build_40:
       - run: chmod u+x *
       - run: ./run
       
-  build_41:
+build_41:
     docker:
       - image: circleci/ruby:2.6.3-stretch-node
 
@@ -490,7 +490,7 @@ build_40:
       - run: chmod u+x *
       - run: ./run
       
-  build_42:
+build_42:
     docker:
       - image: node:11.10.1
 
@@ -502,9 +502,9 @@ build_40:
       - run: chmod u+x *
       - run: ./run
 
-  build_43:
+build_43:
     docker:
-      - image: circleci/clojure:lein-2.9.5
+      - image: node:11.10.1
 
     working_directory: ~/repo
     steps:
@@ -514,7 +514,7 @@ build_40:
       - run: chmod u+x *
       - run: ./run
       
-  build_44:
+build_44:
     docker:
       - image: circleci/golang:1.15.8
 
@@ -526,7 +526,7 @@ build_40:
       - run: chmod u+x *
       - run: ./run
       
-  build_45:
+build_45:
     docker:
       - image: node:11.10.1
 
@@ -538,7 +538,7 @@ build_40:
       - run: chmod u+x *
       - run: ./run
       
-  build_46:
+build_46:
     docker:
       - image: node:11.10.1
 
@@ -550,7 +550,7 @@ build_40:
       - run: chmod u+x *
       - run: ./run
 
-  build_47:
+build_47:
     docker:
       - image: node:11.10.1
 
@@ -562,7 +562,7 @@ build_40:
       - run: chmod u+x *
       - run: ./run
       
-  build_48:
+build_48:
     docker:
       - image: circleci/elixir:1.4
 
@@ -574,7 +574,7 @@ build_40:
       - run: chmod u+x *
       - run: ./run
 
-  build_49:
+build_49:
     docker:
       - image: node:11.10.1
 
@@ -586,7 +586,7 @@ build_40:
       - run: chmod u+x *
       - run: ./run
       
-  build_50:
+build_50:
     docker:
       - image: cimg/python:3.8
 
@@ -598,7 +598,7 @@ build_40:
       - run: chmod u+x *
       - run: ./run
       
-  build_51:
+build_51:
     docker:
       - image: circleci/ruby:2.6.3-stretch-node
 
@@ -610,7 +610,7 @@ build_40:
       - run: chmod u+x *
       - run: ./run
       
-  build_52:
+build_52:
     docker:
       - image: node:11.10.1
 
@@ -622,7 +622,7 @@ build_40:
       - run: chmod u+x *
       - run: ./run
 
-  build_53:
+build_53:
     docker:
       - image: circleci/clojure:lein-2.9.5
 
@@ -634,7 +634,7 @@ build_40:
       - run: chmod u+x *
       - run: ./run
       
-  build_54:
+build_54:
     docker:
       - image: circleci/golang:1.15.8
 
@@ -646,7 +646,7 @@ build_40:
       - run: chmod u+x *
       - run: ./run
       
-  build_55:
+build_55:
     docker:
       - image: node:11.10.1
 
@@ -658,7 +658,7 @@ build_40:
       - run: chmod u+x *
       - run: ./run
       
-  build_56:
+build_56:
     docker:
       - image: node:11.10.1
 
@@ -670,7 +670,7 @@ build_40:
       - run: chmod u+x *
       - run: ./run
 
-  build_57:
+build_57:
     docker:
       - image: node:11.10.1
 
@@ -682,7 +682,7 @@ build_40:
       - run: chmod u+x *
       - run: ./run
       
-  build_58:
+build_58:
     docker:
       - image: node:11.10.1
 
@@ -705,7 +705,7 @@ build_59:
       - run: chmod u+x *
       - run: ./run
       
-  build_60:
+build_60:
     docker:
       - image: circleci/ruby:2.6.3-stretch-node
 
